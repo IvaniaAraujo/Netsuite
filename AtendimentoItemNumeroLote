@@ -1,6 +1,6 @@
 //Script que adiciona a descrição do numero do lote no campo descrição do produto na transação transferir pedido no momento
 //do envio do atendimento
-function after_atemdimento_item(){
+function after_atemdimento_item(){ 
 
     var atendimento_item = nlapiGetNewRecord();
 
